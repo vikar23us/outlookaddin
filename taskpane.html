@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sample Outlook Add-in</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="js/taskpane.js"></script>
+  <style>
+    body {
+      font-family: Segoe UI, Arial, sans-serif;
+      margin: 20px;
+    }
+    button {
+      background: #0078d7;
+      color: #fff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <h2>Sample Outlook Add-in</h2>
+  <p>This is a simple task pane loaded inside Outlook.</p>
+  <button id="getSubject">Get Email Subject</button>
+  <p id="subjectResult"></p>
+</body>
+</html>
